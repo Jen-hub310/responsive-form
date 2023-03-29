@@ -119,6 +119,10 @@ input[type="submit"]:hover {
 
     }
 
+    .menu li {
+        flex: 1 0 calc(25% - 0.5rem)
+    }
+
     fieldset {
         display: flex;
         flex-wrap: wrap;
