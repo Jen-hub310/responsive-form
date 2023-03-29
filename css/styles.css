@@ -35,3 +35,8 @@ header {
 .menu li {
     line-height: 2.1875rem;
 }
+
+.menu a:hover,
+.menu a:active {
+    color: tomato;
+}
