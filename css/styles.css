@@ -113,5 +113,9 @@ input[type="submit"]:hover {
 }
 
 @media screen and (min-width: 1200px) {
+    fieldset {
+        display: flex;
+        flex-wrap: wrap;
+    }
     
 }
