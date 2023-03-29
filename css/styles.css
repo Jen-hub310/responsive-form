@@ -94,3 +94,9 @@ input[type="checkbox"] {
 label[for="privacy"] {
     font-size: 1rem;
 }
+
+input[type="submit"] {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+
+}
