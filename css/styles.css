@@ -31,3 +31,7 @@ header {
     display: block;
     text-decoration: none;
 }
+
+.menu li {
+    line-height: 2.1875rem;
+}
