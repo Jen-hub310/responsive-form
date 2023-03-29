@@ -64,4 +64,9 @@ fieldset {
 label {
     text-transform: uppercase;
     font-size: 1.875rem;
+    display: block;
+}
+
+form div {
+    margin-bottom: 1.5rem;
 }
