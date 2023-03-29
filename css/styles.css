@@ -60,3 +60,8 @@ fieldset {
     padding: 0;
     margin: 0;
 }
+
+label {
+    text-transform: uppercase;
+    font-size: 1.875rem;
+}
