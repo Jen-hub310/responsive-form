@@ -70,3 +70,8 @@ label {
 form div {
     margin-bottom: 1.5rem;
 }
+
+input {
+    width: 100%;
+    border: 1px solid #c0c0c0;
+}
