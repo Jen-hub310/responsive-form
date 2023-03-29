@@ -83,4 +83,5 @@ textarea {
 
 textarea {
     min-height: 18.75rem;
+    resize: vertical;
 }
