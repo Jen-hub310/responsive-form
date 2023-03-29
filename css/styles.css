@@ -90,3 +90,7 @@ input[type="checkbox"] {
     width: 1.5rem;
     height: 1.5rem;
 }
+
+label[for="privacy"] {
+    font-size: 1rem;
+}
