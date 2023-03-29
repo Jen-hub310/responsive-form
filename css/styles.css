@@ -29,6 +29,12 @@ header svg {
     fill:#fff;
 }
 
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
 .menu a {
     color: #fff;
     text-transform: uppercase;
