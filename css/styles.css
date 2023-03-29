@@ -25,6 +25,10 @@ header {
     background-color: #000;
 }
 
+header svg {
+    fill:#fff;
+}
+
 .menu a {
     color: #fff;
     text-transform: uppercase;
