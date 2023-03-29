@@ -116,12 +116,12 @@ input[type="submit"]:hover {
     fieldset {
         display: flex;
         flex-wrap: wrap;
-        gap: 1.5rem;
+        gap: 3rem;
     
     }
 
     fieldset div {
-        flex: 1 0 calc(50% - 1.5rem) /* grow shrink width = 1(for yes, grow) 0(for no, shrink) width: 50%*/
+        flex: 1 0 calc(50% - 3rem) /* grow shrink width = 1(for yes, grow) 0(for no, shrink) width: 50%*/
     }
     
 }
