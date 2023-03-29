@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,17 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
         <h1>
             Company Name
-            <svg xmlns="http://www.w3.org/2000/svg" width="75.14" height="72.676" viewBox="0 0 75.14 72.676"><title>Company Name</title><path d="M51.85 29.084c8.017 0 14.522-6.514 14.522-14.536C66.372 6.524 59.866 0 51.85 0c-8.03 0-14.573 6.524-14.573 14.548 0 8.022 6.543 14.536 14.573 14.536M0 3.256h24.701v69.42H0zM57.695 37.136L35.367 50.087l11.5 22.589h28.272z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="75.14" height="72.676" viewBox="0 0 75.14 72.676">
+                <title>Company Name</title>
+                <path
+                    d="M51.85 29.084c8.017 0 14.522-6.514 14.522-14.536C66.372 6.524 59.866 0 51.85 0c-8.03 0-14.573 6.524-14.573 14.548 0 8.022 6.543 14.536 14.573 14.536M0 3.256h24.701v69.42H0zM57.695 37.136L35.367 50.087l11.5 22.589h28.272z">
+                </path>
+            </svg>
         </h1>
         <nav>
             <ul class="menu">
@@ -22,7 +29,7 @@
                 <li><a href="#">Packaging</a></li>
             </ul>
         </nav>
-        
+
     </header>
 
     <main>
@@ -50,7 +57,8 @@
                     </div>
                     <div>
                         <label for="email">Email</label>
-                        <input id="email" type="email" name="email" placeholder="for our written communication" required>
+                        <input id="email" type="email" name="email" placeholder="for our written communication"
+                            required>
                     </div>
                     <div>
                         <label for="website">Website</label>
@@ -61,7 +69,7 @@
                 <fieldset>
                     <div>
                         <label for="deadline">Deadline</label>
-                        <input id="deadline" type="date" name="deadline" required >
+                        <input id="deadline" type="date" name="deadline" required>
                     </div>
                     <div>
                         <label for="budget">Budget</label>
@@ -70,29 +78,32 @@
                     <div>
                         <label for="project website">Project url</label>
                         <input id="project website" type="text" name="project website" placeholder="www.website">
+                        <!--  I used type="text" instead of type="url" bc otherwise you have to enter https//www. and all that garbage. this makes it easier for the user-->
                     </div>
                     <div>
                         <label for="audience">Target Audience</label>
-                        <input id="audience" type="text" name="target-audience" placeholder="your specific audience" >
+                        <input id="audience" type="text" name="target-audience" placeholder="your specific audience">
                     </div>
                     <div>
                         <label for="description">Project Description</label>
-                        <textarea name="description" id="description" placeholder="describe your vision or needs" required ></textarea>
-                     
+                        <textarea name="description" id="description" placeholder="describe your vision or needs"
+                            required></textarea>
+
                     </div>
                 </fieldset>
                 <div>
-                <p>By completing and sending the data, you agree to the privacy policy</p>
-                <label>
-                    <input type="checkbox">
-                    Accept
-                </label> 
+                    <p>By completing and sending the data, you agree to the privacy policy</p>
+                    <label>
+                        <input type="checkbox">
+                        Accept
+                    </label>
                 </div>
                 <input type="submit" value="Send >">
             </form>
         </section>
 
     </main>
-   
+
 </body>
+
 </html>
