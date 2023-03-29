@@ -122,7 +122,7 @@ input[type="submit"]:hover {
     fieldset {
         display: flex;
         flex-wrap: wrap;
-        gap: 3rem;
+        column-gap: 3rem;
     
     }
 
