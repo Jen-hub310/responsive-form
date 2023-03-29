@@ -103,6 +103,7 @@ input[type="submit"] {
     background: #fff;
     box-shadow: none;
     font-weight: bold;
+    transition: padding-left 1s ease;
 
 }
 
