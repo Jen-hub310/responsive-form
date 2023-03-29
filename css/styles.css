@@ -111,3 +111,7 @@ input[type="submit"]:hover {
     cursor: pointer;
     padding-left: 1.5rem;
 }
+
+@media screen and (min-width: 1200px) {
+    
+}
