@@ -98,5 +98,10 @@ label[for="privacy"] {
 input[type="submit"] {
     font-size: 1.875rem;
     text-transform: uppercase;
+    width: unset;
+    border:none;
+    background: #fff;
+    box-shadow: none;
+    font-weight: bold;
 
 }
