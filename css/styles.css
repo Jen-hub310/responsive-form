@@ -44,6 +44,7 @@ header svg {
 
 .menu li {
     line-height: 2.1875rem;
+    flex: 1 0 calc(50% - 0.5rem);
 }
 
 .menu a:hover,
