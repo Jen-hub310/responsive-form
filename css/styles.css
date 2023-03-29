@@ -85,3 +85,8 @@ textarea {
     min-height: 18.75rem;
     resize: vertical;
 }
+
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+}
