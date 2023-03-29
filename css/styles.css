@@ -80,3 +80,7 @@ textarea {
     box-shadow:2px 2px 3px #e8e8e8;
     
 }
+
+textarea {
+    min-height: 18.75rem;
+}
