@@ -27,7 +27,7 @@ header {
 
 header svg {
     fill:#fff;
-  
+ 
 }
 
 .menu {
@@ -51,4 +51,10 @@ header svg {
 .menu a:hover,
 .menu a:active {
     color: tomato;
+}
+
+/**************** forms! *********************/
+
+fieldset {
+    border: none;
 }
